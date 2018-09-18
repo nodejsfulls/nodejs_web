@@ -21,14 +21,14 @@ class App extends Component {
             <Menu.Item key="3">nav 3</Menu.Item>
           </Menu>
         </Header>
-        <Content style={{ padding: '30px 50px' }}>
+        <Content style={{ padding: '30px 50px' ,margin:24}}>
           <h2>Node.js 基础</h2>
-          <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
-            <Row gutter={16}>
-              <Col span={6}>
+          <div style={{ background: '#fff',padding:24}}>
+            <Row gutter={24}>
+              <Col md={6} xs={24} >
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -37,10 +37,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}  xs={24}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   
                   cover={<img alt="example" src="https://img1.sycdn.imooc.com/5b86566a0001d31106000338-240-135.jpg" />}
                 >
@@ -50,10 +50,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}  xs={24}>
                 <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -62,10 +62,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}  xs={24}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -84,10 +84,10 @@ class App extends Component {
           </Breadcrumb>
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
             <Row gutter={16}>
-              <Col span={6}>
+              <Col md={6}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -96,10 +96,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -108,10 +108,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}>
                 <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -120,10 +120,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -142,10 +142,10 @@ class App extends Component {
           </Breadcrumb>
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
             <Row gutter={16}>
-              <Col span={6}>
+              <Col md={6}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b95cd0e0001e8c406000338.jpg" />}
                 >
                   <Meta
@@ -154,10 +154,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -166,10 +166,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}>
                 <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
@@ -178,10 +178,10 @@ class App extends Component {
                   />
                 </Card>
               </Col>
-              <Col span={6}>
+              <Col md={6}>
               <Card
                   hoverable
-                  style={{ width: 240 }}
+                  style={{ width: "100%" }}
                   cover={<img alt="example" src="https://img4.sycdn.imooc.com/szimg/5b8510930001ab7605400300.jpg" />}
                 >
                   <Meta
